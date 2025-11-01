@@ -51,8 +51,8 @@ Proyek ini adalah sebuah script Python untuk melakukan web scraping data produk 
 
 #### **Step 1: Clone/Download Repository**
 ```bash
-git clone https://github.com/username/scraper-shopee-excel.git
-cd scraper-shopee-excel
+git <url>
+cd kenangan-kita
 ```
 
 #### **Step 2: Buat Virtual Environment**
@@ -106,7 +106,7 @@ python main.py
 ```
 
 ### **3. Hasil Output**
-Setelah script selesai dijalankan, file **`shopee_products.xlsx`** akan dibuat di direktori yang sama.
+Setelah script selesai dijalankan, file **`lelang_kpk_detailed.xlsx`** akan dibuat di direktori yang sama.
 
 ### **4. Deaktivasi Virtual Environment**
 ```bash
@@ -115,23 +115,10 @@ deactivate
 
 ---
 
-## 📊 Format Data Excel
-
-File Excel yang dihasilkan memiliki kolom-kolom berikut:
-
-| Kolom | Deskripsi |
-|-------|-----------|
-| **Nama Produk** | Nama dari produk yang di-scrape |
-| **Gambar Produk** | URL gambar dari produk |
-| **Detail Keterangan** | Deskripsi atau detail produk |
-| **Jumlah Stok** | Jumlah stok produk yang tersedia |
-
----
-
 ## 📁 Struktur Project
 
 ```
-scraper-shopee-excel/
+kenangan-kita/
 │
 ├── main.py                  # Script utama scraper
 ├── requirements.txt         # Daftar dependencies
@@ -140,7 +127,7 @@ scraper-shopee-excel/
 ├── README.md               # Dokumentasi lengkap
 ├── .gitignore              # Git ignore file
 ├── venv/                   # Virtual environment (dibuat otomatis)
-└── shopee_products.xlsx    # Output file (dibuat setelah running)
+└── lelang_kpk_detailed.xlsx    # Output file (dibuat setelah running)
 ```
 
 ---
